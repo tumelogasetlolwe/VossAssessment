@@ -18,8 +18,8 @@ public class Driver {
 
     private FirefoxDriver getNewFirefoxDriverInstance() {
 
-           System.setProperty("webdriver.gecko.driver", "C:\\Users\\Teee\\Pictures\\DemoB\\geckodriver.exe");
-        System.setProperty("webdriver.gecko.driver",  "C:\\Users\\Teee\\Pictures\\DemoB\\chromedriver.exe");
+           System.setProperty("webdriver.gecko.driver", "C:\\Users\\Teee\\Desktop\\VossAssessment\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver",  "C:\\Users\\Teee\\Desktop\\VossAssessment\\chromedriver.exe");
         return new FirefoxDriver();
 
     }
